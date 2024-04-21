@@ -17,7 +17,7 @@ describe('Banner', () => {
     const guideLink = screen.getByRole('link', { name: 'Read the Guide' });
 
     expect(guideLink).toBeInTheDocument();
-    expect(guideLink).toHaveAttribute('href', '/buy-me-coffee#guide');
+    expect(guideLink).toHaveAttribute('href', '/coldmail-inbox#guide');
   });
 
   it('should render banner with correct text', () => {

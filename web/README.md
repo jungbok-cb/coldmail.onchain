@@ -43,7 +43,7 @@ _Using BuyMeACoffee smart contract as an example below_
 │   └──out/BuyMeACoffee.sol
 │       └── BuyMeACoffee.json         ← output from "forge build" which contains the updated ABI
 │
-└── web/app/buy-me-coffee
+└── web/app/coldmail-inbox
     └── _contracts
         ├── BuyMeACoffeeABI.ts             ← copy of ABI from contracts/out/BuyMeACoffee.json
         └── useBuyMeACoffeeContract.ts     ← deploy address
